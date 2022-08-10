@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'LookingGlass';
+    src: url(/Fonts/LookingGlass.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url(/Fonts/SourceSansPro.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'SourceSansPro';
+    font-size: 18px;
+
+}
+
+h1 {
+    font-family: 'LookingGlass';
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 1.6px;
+}
+
+h2 {
+    font-family: 'LookingGlass';
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 1.4px;
+}
+
+h3 {
+    font-family: 'LookingGlass';
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+
+body {
+
+    background: url(/Images/Vector\ Smart\ Object.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'LookingGlass';
+}
+
+:root {
+    --Primary-color: white;
+    --Secondary-color: white;
+    --ternory-color: white;
+    --default-margin: 2%;
+    --Primary-border-color: transparent 2px solid;
+    --Secondary-border-color: transparent 2px solid;
+    --Ternory-border-color: transparent 2px solid;
+
+}
+
+.container-div {
+    /* text-align: center; 
+    align-items: center;
+    align-content: center;*/
+}
+
+.row-div {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Link {
+    /* font-weight: bold; */
+    font-size: 17px;
+    color: rgb(230, 229, 229);
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.2s;
+    letter-spacing: 1.5px;
+    font-family: 'LookingGlass';
+    border: var(--Ternory-border-color);
+    /* cursor: pointer; */
+    /* border: none; */
+    /* display: inline-block; */
+    position: relative;
+}
+
+.Link:hover {
+    color: white;
+}
+
+/* .Background-Img {
+    background: url(/Images/Vector\ Smart\ Object.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+/* .Home:after,
+.About:after,
+.Portfolio:after,
+.Contact:after,
+.Form:after {
+    content: ' ';
+    position: absolute;
+    width: 80%;
+    border-radius: 10px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0px;
+    left: 12px;
+    background-color: whitesmoke;
+    transform-origin: right;
+    transition: transform 0.5s ease-out;
+}
+
+.Home:hover:after,
+.About:hover:after,
+.Portfolio:hover:after,
+.Contact:hover:after,
+.Form:hover:after {
+
+    transform: scaleX(1);
+    transform-origin: left;
+} */
+
+.btn-1 {
+    font-family: 'LookingGlass';
+    color: white;
+    margin-left: 14px;
+    padding: 10px 40px;
+    text-decoration: none;
+    border: 2px solid white;
+}
+
+
+.btn-1:hover {
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+.btn-2 {
+    cursor: pointer;
+    font-family: 'LookingGlass';
+    color: black;
+    background-color: white;
+    padding: 20px 40%;
+    text-decoration: none;
+}
+
+
+.btn-2:hover {
+    background-color: #ff5596;
+    color: white;
+    transition: 0.8s;
+}
+.Yellow-Image {
+    background: url(/Images/Yellow\ circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.hover-div {
+    background: #ffffff15;
+    transition: transform .4s;
+}
+
+.hover-div:hover {
+    cursor: pointer;
+    background: #ffffff15;
+    transform: scale(1.075);
+}
+
+
+
+
+
+
+
+
+
+input[type=text] {
+    font-size: 18px;
+    background-color: transparent;
+    width: 90%;
+    padding: 12px 20px;
+    margin: 18px 0;
+    border: none;
+    border-bottom: 3px solid #ff5596;
+    font-family: 'SourceSansPro';
+
+
+
+
+}
+input::placeholder {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+input[type=text-Right] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: 2px solid #ff5596;
+    font-size: 18px;
+    padding: 12px 10px;
+    background-color: transparent;
+        font-family: 'SourceSansPro';
+}
+
+
+
+input[type=text1-Right] {
+    width: 90%;
+    padding: 12px 70px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ff5596;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 115px 10px;
+    background-color: transparent;
+    font-family: 'SourceSansPro';
+}
+
+
+.Social-Images:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.Pink-Hover:hover{
+    cursor: pointer;
+    color: #ff5596;
+}
